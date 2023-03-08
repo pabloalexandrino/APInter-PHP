@@ -1,19 +1,19 @@
 {
-	"name" : "ctodobom/api-inter",
+	"name" : "andrinno/api-inter",
 	"type" : "package",
 	"description" : "Acesso à API do Banco Inter",
 	"license" : "LGPL-3.0-or-later",
 	"keywords" : [
-		"Banco Inter Intermedium Boletos Cobrança"
+		"Banco Inter Boletos Cobrança"
 	],
 	"autoload" : {
 		"psr-4" : {
-			"ctodobom\\APInterPHP\\" : "src"
+			"Andrinno\\APInterPHP\\" : "src"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"ctodobom\\APInterPHP\\Tests\\" : "tests"
+			"Andrinno\\APInterPHP\\Tests\\" : "tests"
 		}
 	},
 	"require" : {
